@@ -15,20 +15,22 @@ import {
 export default function Home() {
   return (
     <section className='bg-white'>
-      <header className='container bg-white mx-auto border-b p-4 md:flex md:items-center md:justify-between sticky top-0'>
+      <header className='container bg-white mx-auto border-b p-4 flex items-center justify-between sticky top-0'>
         <div className='flex items-center justify-between'>
-          <Image
-            src={logo}
-            alt='Universitas Palangka Raya'
-            width={24}
-            priority
-          />
+          <Link href="/">
+            <Image
+              src={logo}
+              alt='Universitas Palangka Raya'
+              width={24}
+              priority
+            />
+          </Link>
           <span className='sr-only'>Universitas Palangka Raya</span>
-          <nav className='md:ml-10 md:pr-4 md:space-x-8'>
+          <nav className='hidden md:flex md:ml-10 md:pr-4 md:space-x-8'>
             <Link className='text-base font-medium text-gray-500 hover:text-gray-900 ' href="/">Home</Link>
           </nav>
         </div>
-        <div className='flex items-center justify-center mt-4 md:mt-0 space-x-4'>
+        <div className='flex items-center justify-center space-x-4'>
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button className="bg-green-500">

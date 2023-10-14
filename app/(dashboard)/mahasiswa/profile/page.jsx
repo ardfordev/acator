@@ -18,15 +18,15 @@ export default function MahasiswaProfile() {
           <div className="space-y-4">
             <div className="space-y-2">
               <Label htmlFor="name">Nama Mahasiswa</Label>
-              <Input className="w-1/2" id="name" value="Diahadi Triwasti" type="text" disabled/>
+              <Input className="w-full md:w-1/2" id="name" value="Diahadi Triwasti" type="text" disabled/>
             </div>
             <div className="space-y-2">
               <Label htmlFor="nim">NIM</Label>
-              <Input className="w-1/2" id="nim" value="213010601027" type="text" disabled/>
+              <Input className="w-full md:w-1/2" id="nim" value="213010601027" type="text" disabled/>
             </div>
             <div className="space-y-2">
               <Label htmlFor="fakultas">Fakultas/Jurusan</Label>
-              <Input className="w-1/2" id="fakultas" value="Hukum/Ilmu Hukum" type="text" disabled/>
+              <Input className="w-full md:w-1/2" id="fakultas" value="Hukum/Ilmu Hukum" type="text" disabled/>
             </div>
           </div>
         </div>

@@ -44,8 +44,8 @@ export default function RegistrasiKRS() {
                   <TableHead><span className='text-gray-900'>#</span></TableHead>
                   <TableHead><span className='text-gray-900'>KODE MK</span></TableHead>
                   <TableHead><span className='text-gray-900'>Mata Kuliah</span></TableHead>
-                  <TableHead><span className='text-gray-900'>Status</span></TableHead>
                   <TableHead><span className='text-gray-900'>SKS</span></TableHead>
+                  <TableHead><span className='text-gray-900'>Status</span></TableHead>
                   <TableHead />
                 </TableRow>
               </TableHeader>
